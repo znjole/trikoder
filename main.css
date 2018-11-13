@@ -1,4 +1,4 @@
-@media (max-device-width:850px){
+@media only screen and (max-width : 850px){
 	.upHead, .logo, .nav a, form, img{
 		width:100% !important;
 	}
@@ -27,7 +27,7 @@
 
 }
 
-@media (max-device-width:550px){
+@media only screen and (max-width:550px){
 	.carousel-caption {
 		padding:0 0 0 2% !important;
 	}
