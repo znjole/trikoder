@@ -1,0 +1,164 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Trikoder vježba</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/slider.js"></script>
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script src="js/location.js"></script>
+  <!--višak-->
+  <script src="js/toggle.js"></script>
+
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <header class ="flex">
+	<div class ="upHead"> 
+		<div class="imgHold flex">
+		
+			<a class="logo" href="#"><img src="images/logo.png" alt="logo"/></a>
+		
+			<div class="uppercase info">
+			
+				<div class="right"><br/>besplatni info telefon: 0800 00 00 00
+
+				<br/><br/>lociraj me <a href="javascript:;" onclick="getLocation()"><span class="glyphicon glyphicon-map-marker"></span></a>
+				&nbsp; &nbsp; Moj profil
+				&nbsp; &nbsp; &nbsp;	<a href="#" class="fa fa-facebook"></a> &nbsp; 
+				<a href="#" class="fa fa-twitter"></a>
+				</div>
+				<div id="loc"></div>
+			</div>
+		</div>
+		<div class="search"></div>
+		
+		<!--višak-->
+		
+		
+			<div class="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</div>
+			<div class="nav flex" id="mySidenav">
+				
+  
+				<a href="#"><span class="glyphicon glyphicon-home home"></span></a>
+				<a href="#"><span class="uppercase link">Page link 1</span></a>
+				<a href="#"><span class="uppercase link">Page link 2</span></a>
+				<a href="#"><span class="uppercase link">Page link 3</span></a>
+				
+				<form><input type="search" placeholder="Pretraži..."></form>
+					
+			</div>
+		</div>
+		
+		
+						
+	
+	<div class="downHead flex">
+	
+	
+	<div class="grad"><!-- gradijent --></div>					
+	<div class="slide">
+							<!-- slider -->
+		<div id="myCarousel" class="carousel slide">  
+			<div class="carousel flex">
+				<div class="carousel-inner ">
+					<div class="item active ">
+						<img src="images/slide1.jpg" alt="ski">
+						
+						<div class="carousel-caption">
+								<span class="big">Lorem ipsum</span>
+								<br/>
+								<span class="small">Nullam fermentum condimentum sapien sit amet luctus</span>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/slide2.jpg" alt="pink">
+						
+						<div class="carousel-caption left">
+								<span class="big">Lorem ipsum</span>
+								<br/>
+								<span class="small">Nullam fermentum condimentum sapien sit amet luctus</span>
+						</div>
+
+					</div>
+					<div class="item">
+						<img src="images/slide1.jpg" alt="ski">
+						
+						<div class="carousel-caption left">
+								<span class="big">Lorem ipsum</span>
+								<br/>
+								<span class="small">Nullam fermentum condimentum sapien sit amet luctus</span>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/slide2.jpg" alt="pink">
+						
+						<div class="carousel-caption left">
+								<span class="big">Lorem ipsum</span>
+								<br/>
+								<span class="small">Nullam fermentum condimentum sapien sit amet luctus</span>
+						</div>
+					</div>
+				</div>
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+			</ol>
+			</div>
+		</div>
+	</div>
+	
+			<div>
+			</div>
+
+	</div>
+  </header>
+  
+
+  <!-- Add your site or application content here -->
+  <div>Hello world! This is HTML5 Boilerplate.</div>
+  <div>Hello world! This is HTML5 Boilerplate.</div>
+  <div>Hello world! This is HTML5 Boilerplate.</div>
+  <div>Hello world! This is HTML5 Boilerplate.</div>
+  <div>Hello world! This is HTML5 Boilerplate.</div>
+  <div>Hello world! This is HTML5 Boilerplate.</div>
+  <div>Hello world! This is HTML5 Boilerplate.</div>
+  
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  
+</body>
+
+</html>
