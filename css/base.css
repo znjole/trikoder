@@ -1,0 +1,93 @@
+@media only screen and (max-width : 850px){
+	.upHead, .logo, .nav a, form, img{
+		width:100% !important;
+	}
+	form{
+		height:40px;
+	}
+	.right{
+		text-align: center !important;	
+	}	
+	.big{
+		font-size:1.5625em !important;
+	}
+
+	.small{
+		font-size:0.875em !important;
+	}
+	.carousel-caption {
+		top:0 !important;
+	}
+	.menu{
+		display:flex !important;
+	}
+	#mySidenav{
+		display:none;
+	}
+
+}
+
+@media only screen and (max-width:550px){
+	.carousel-caption {
+		padding:0 0 0 2% !important;
+	}
+	
+	.big{
+		font-size:5px !important;
+		margin:0 !important;
+	}
+
+	.small{
+		margin:0 !important;
+		font-size:3px !important;
+	}
+}
+
+@font-face{
+	font-family: myFont;
+	src:url('fonts/sosa.eot?#iefix') format('embedded-opentype'), 
+	url('fonts/sosa.woff') format('woff'), 
+	url('fonts/sosa.ttf') format('truetype'),
+	url('fonts/sosa.svg') format('svg'); 
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	width: 100%;
+	background-color: #333;	
+	justify-content: center;
+}
+
+.flex{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+
+.right{
+	text-align:right;
+}
+
+.left{
+}
+
+
+.big{
+	font-size:2.375em;	
+}
+
+.small{
+	font-size:1.5em;
+}
+
+.uppercase{
+	text-transform:uppercase;
+}
+
+*{
+	/*border:red 1px solid;*/
+	margin:0;
+}

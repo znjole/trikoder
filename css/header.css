@@ -1,0 +1,103 @@
+
+.upHead{
+	width:80%;
+}
+
+.menu{
+	display:none;
+	color:#fff;
+}
+
+.imgHold{
+	
+	background-color: #333;	
+}
+
+.info{
+	flex-grow: 2;
+	color:#cdcdcd;
+	background-color: #333;	
+	padding-right:1%;
+}
+
+.glyphicon{
+	font-size:24px;
+	color:#fff;
+}
+
+.glyphicon:hover{
+	color:#8f8f8f;
+}
+
+.fa{
+	padding: 9px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+.fa:hover{
+	text-decoration: none;
+	background: #8f8f8f;
+	color: #fff;	
+}
+
+.fa-facebook {
+	background: #fff;
+	color: #333;
+}
+
+.fa-twitter {
+	background: #fff;
+	color: #333;
+}
+
+.nav {
+    display: flex;
+    background-color:#f4f4f4;
+}
+
+.home{
+    color:#8f8f8f;	
+}
+
+.home:hover{
+    color:#333;	
+}
+
+.nav a:first-child{
+	width:9%;
+}
+
+.nav a{
+    color:#8f8f8f;
+    padding: 15px 0 5px 0;
+    text-decoration: none;
+    text-align: center;
+	width:15%;
+}
+
+.nav a:hover, .nav a:focus {
+    background-color: #d7d7d7;
+    color: black;
+	text-decoration:none;
+}
+
+form{
+	width: 46%;
+	font-style:italic;
+}
+
+input{
+	height:100%;
+	width:100%;
+	border:none;
+	border-bottom:solid #c8c8c8 1px;
+	font-size:1em;
+	padding-left:20px;
+	box-shadow: 5px 5px 5px 5px inset;
+	color:#b8b8b8;
+	background-color:#eee9e9;
+}
