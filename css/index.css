@@ -1,15 +1,3 @@
 @import  'normalize.css';
 @import  'base.css';
 @import  'header.css' ;
-
-.downHead{
-	width:100%;
-	justify-content:center;
-	background-color: #fff;	
-}
-
-.grad{
-	width:100%;
-	height:30px;
-	background: linear-gradient(#bdbdbd, #fff);
-}
