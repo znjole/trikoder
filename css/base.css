@@ -78,4 +78,5 @@ header{
 *{
 	/*border:red 1px solid;*/
 	margin:0;
+	box-sizing: border-box;
 }
