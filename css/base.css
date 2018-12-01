@@ -1,67 +1,36 @@
-@media only screen and (max-width:550px){
-	.carousel-caption {
-		padding:0 0 0 2% !important;
-	}
-	
-	.big{
-		font-size:5px !important;
-		margin:0 !important;
-	}
-
-	.small{
-		margin:0 !important;
-		font-size:3px !important;
-	}
-}
-
-@media only screen and (max-width : 850px){
-	.upHead, .logo, .nav a, form, img{
-		width:100% !important;
-	}
-	form{
-		height:40px;
-	}
-	.right{
-		text-align: center !important;	
-	}	
-	.big{
-		font-size:1.5625em !important;
-	}
-
-	.small{
-		font-size:0.875em !important;
-	}
-	.carousel-caption {
-		top:0 !important;
-	}
-	.menu{
-		display:flex !important;
-	}
-	#mySidenav{
-		display:none;
-	}
-
-}
-
 *{
+	/*border:red 1px solid;*/
 	margin:0;
+	box-sizing:border-box;
 }
 
-*, *:before, *:after {
-  	box-sizing: inherit;
+.body{
+	max-width:1440px;
 }
 
-html{
-	box-sizing: border-box;
+.wrapper{
+	max-width:1145px;
 }
 
-body{
-	font-family: 'Open Sans', sans-serif;
+.auto{
+	margin-left:auto;
+	margin-right:auto;		
 }
 
-header{
-	width: 100%;
+.font{
+	font-family:'Open Sans', sans-serif;
+	font-weight:600;
+}
+
+.full{
+	width:100%;
+}
+
+.gray{
 	background-color: #333;	
+}
+
+.center{
 	justify-content: center;
 }
 
@@ -75,12 +44,20 @@ header{
 	text-align:right;
 }
 
-.big{
-	font-size:2.375em;	
+.tel{
+	font-size:12px;
 }
 
-.small{
-	font-size:1.5em;
+.num{
+	font-size:16px;
+}
+
+.loc{
+	font-size:26px;
+}
+
+.italic{
+	font-style:italic;
 }
 
 .uppercase{
