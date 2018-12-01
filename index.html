@@ -16,50 +16,60 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   
  
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
 
 </head>
 
-<body>
+<body class="font body auto">
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-  <header class ="flex">
-	<div class ="upHead"> 
-		<div class="imgHold flex">
-		
-			<a class="logo" href="#"><img src="images/logo.png" alt="logo"/></a>
-		
-			<div class="uppercase info">
+  <header class ="full gray">
+		<div class="wrapper auto">
+			<div class="flex">
 			
-				<div class="right"><br/>besplatni info telefon: 0800 00 00 00
+				<a href="#"><img class="full" src="images/logo.png" alt="logo"/></a>
+			
+				<div class="uppercase right info">
+				
+					<span class="tel">besplatni info telefon: </span>&nbsp; <span class="num">0800 00 00 00</span>
 
-				<br/><br/>lociraj me <a href="javascript:;" onclick="getLocation()"><span class="glyphicon glyphicon-map-marker"></span></a>
-				&nbsp; &nbsp; Moj profil
-				&nbsp; &nbsp; &nbsp;	<a href="#" class="fa fa-facebook"></a> &nbsp; 
-				<a href="#" class="fa fa-twitter"></a>
-				</div>
-				<div id="loc"></div>
-			</div>
-		</div>
-		<div class="search"></div>		
-		
-			<div class="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</div>
-			<div class="nav flex" id="mySidenav">
-				
-  
-				<a href="#"><span class="glyphicon glyphicon-home home"></span></a>
-				<a href="#"><span class="uppercase link">Page link 1</span></a>
-				<a href="#"><span class="uppercase link">Page link 2</span></a>
-				<a href="#"><span class="uppercase link">Page link 3</span></a>
-				
-				<form><input type="search" placeholder="Pretraži..."></form>
+					<br/><br/><br/>lociraj me <span class="loc"><a class="fa fa-map-marker" href="javascript:;" onclick="getLocation()"></a></span>
+					&nbsp; &nbsp; Moj profil
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;	<a href="#" class="fa fa-facebook"></a> &nbsp; 
+					<a href="#" class="fa fa-twitter"></a>
 					
+				</div>
 			</div>
+			
+			<div class="menu" style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776;</div>
+			<div class="nav flex uppercase" id="mySidenav">
+				
+	  
+				<a class="fa fa-home" href="#"></a>
+				<a href="#">Page link 1</a>
+				<a href="#">Page link 2</a>
+				<a href="#">Page link 3</a>
+					
+				<form><input class="full italic input" type="search" placeholder="Pretraži..."></form>
+						
+			</div>
+	
 		</div>
-		
   </header>
 
   
