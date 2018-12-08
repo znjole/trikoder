@@ -4,7 +4,7 @@
 	box-sizing:border-box;
 }
 
-@media only screen and (max-width:520px){
+@media only screen and (min-width:300px){
 	.nav a{
 		width:100% !important;
 	}
@@ -14,10 +14,6 @@
 	#mySidenav, .info{
 		display:none;
 	}
-}
-
-.body{
-	max-width:1440px;
 }
 
 .wrapper{
