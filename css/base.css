@@ -4,6 +4,18 @@
 	box-sizing:border-box;
 }
 
+@media only screen and (max-width:520px){
+	.nav a{
+		width:100% !important;
+	}
+	.menu{
+		display:flex !important;
+	}
+	#mySidenav, .info{
+		display:none;
+	}
+}
+
 .body{
 	max-width:1440px;
 }
